@@ -1,8 +1,8 @@
-const playerInstance = jwplayer('player').setup({
-  playlist: 'https://cdn.jwplayer.com/v2/media/jumBvHdL',
+const playerInstance = jwplayer('jwplayer').setup({
+  playlist: 'https://cdn.jwplayer.com/v2/media/pV3foikl',
   skin: {
-    name: 'alaska',
-    url: 'assets/alaska.css'
+    name: 'practiceplayer',
+    url: 'https://s3.us-east-2.amazonaws.com/hadarshemesh.com/assets/practiceplayer.css'
   }
 });
 
